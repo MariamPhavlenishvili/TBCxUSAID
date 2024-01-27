@@ -2,7 +2,7 @@
 
 This project is a clone of TBC Academy TBC x USAID page. Where you can see details about the project. Basic information about program, each courses with some details. Project partners slider, common questions section with answers and also footer.
 
-The project is also hosted on [GitHub Pages]
+The project is also hosted on [[Netlify](https://main--shimmering-kataifi-98dab2.netlify.app/)]
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -47,8 +47,7 @@ Local Server (Optional):
 
 All installation steps go here. You need to git clone the project and then change the directory
 
-* git clone repository-url
-* cd project-directory
+* git clone [TBCxUSAID](https://github.com/MariamPhavlenishvili/TBCxUSAID)
 
 ## Development
 
