@@ -1,0 +1,214 @@
+@media (max-width: 59em) {
+
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .main-nav {
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: right;
+    transition: all 0.3s ease-in-out;
+
+    padding: 2rem;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    overflow: hidden;
+  }
+
+  .nav-open .fa-close {
+    display: block !important;
+    font-size: 4.8rem !important;
+    padding-bottom: 4.8rem;
+  }
+
+  .fa-bars {
+    font-size: 4rem !important;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav a:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .navigation {
+    padding: 3rem 1rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .banner-image-box img{
+    height: 40vh;
+  }
+
+  .headers {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .headers h1 {
+    font-size: 4rem;
+  }
+
+  .headers h2 {
+    font-size: 3rem;
+  }
+
+  .info-text-box h1,
+  .info-text-box a {
+    font-size: 2rem;
+  }
+
+  .course-card {
+    max-width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .course-card h5 {
+    font-size: 2.5rem;
+  }
+
+  .course-card a,
+  .course-card span,
+  .course-card p {
+    font-size: 2rem;
+  }
+
+  .slideshow-wrapper {
+    height: 40vh;
+    margin: auto;
+  }
+
+  .slideshow-container {
+    height: 80%;
+  }
+
+  .slide img {
+    max-width: 40vw;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .slide div:not(:last-child) {
+    margin-right: 0rem;
+  }
+
+  .courses h2,
+  .slideshow-header {
+    font-size: 3rem;
+  }
+
+  .common-questions-wrapper {
+    padding: 0rem;
+    padding-top: 10rem;
+  }
+
+  .common-questions-title {
+    font-size: 3rem;
+  }
+
+  .common-questions-show-all.desktop {
+    display: none;
+  }
+
+  .show-all-questions-block {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5rem 0rem;
+  }
+
+  .question-text,
+  .answer {
+    font-size: 1.5rem;
+  }
+
+  .common-questions-show-all.mobile{
+    display: block;
+  }
+
+  .footer-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer-img-block img {
+    width: 40%;
+  }
+
+  .contact {
+    flex-direction: row-reverse;
+    padding-bottom: 3rem;
+  }
+
+  .contact-button {
+    width: auto;
+    height: 5rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .contact-button a {
+    font-size: 2rem;
+  }
+
+  .social-media img {
+    width: 10vw;
+  }
+
+  .social-media-buttons {
+    padding-left: 1.5rem;
+  }
+
+  .footer-terms-and-conditions {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .footer-terms-and-conditions p,
+  .footer-terms-and-conditions a {
+    font-size: 2rem;
+  }
+}
