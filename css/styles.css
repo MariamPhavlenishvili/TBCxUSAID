@@ -410,7 +410,6 @@ body.nav-open {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto;
 }
 
 .footer-img-block {
@@ -425,8 +424,9 @@ body.nav-open {
 .footer-terms-and-conditions {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   gap: 1.5rem;
-  font-size: small;
+  font-size: medium;
 }
 
 .footer-terms-and-conditions a:hover {
